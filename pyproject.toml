@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = "P2P Wallet Backend"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.2.3"
+graphene = "^2.1.9"
+graphene-sqlalchemy = "^2.3.0"
+flask-graphql = "^2.0.1"
+SQLAlchemy = "^1.4.49"
+
+[tool.poetry.group.dev.dependencies]
+typer = {extras = ["all"], version = "^0.9.0"}
+flask-cors = "^3.0.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
