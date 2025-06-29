@@ -8,22 +8,6 @@ This is a full-stack peer-to-peer (P2P) digital wallet application that allows u
 
 The project features a **Python Flask** backend with **GraphQL**, and a **Next.js React** frontend styled with **Tamagui**, all structured within a monorepo.
 
----
-
-## 📁 Project Structure
-
-```
-.
-├── backend/         # Flask backend with GraphQL and SQLite
-├── apps/
-│   └── next/        # Frontend app using Next.js, Tamagui, Apollo
-├── data/
-│   └── users.csv    # Seed data for users
-├── packages/        # Shared UI and logic
-```
-
----
-
 ## 🧪 Features
 
 ✅ View user's current balance (calculated from transactions)  
